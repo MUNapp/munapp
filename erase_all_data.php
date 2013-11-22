@@ -10,6 +10,9 @@ $fh = fopen($file, 'r+') or die("Can't open file");
 fclose($fh);
 file_put_contents('attendance.txt', null);
 php?>
+<script type="text/javascript">
+window.close();
+</script>
 <body>
 </body>
 </html>
